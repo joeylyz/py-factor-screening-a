@@ -2,10 +2,12 @@
 A quantitative work to screen listed A share stock, with both technical and fundamental factor, and backtest
 data from tushare, require valid license
 
+<get_china_stock.py>
 ### step 1: get universe
 A share listed company on Shanghai and Shenzhen exchang
 apply filters in market cap / trading volume
 
+<china_stock_strategy.py>
 ### step 2: technical factor
 here I use MACD, RSI and bollinger band
 
