@@ -30,16 +30,6 @@ def get_china_stocks():
         stocks.to_csv(output_file, index=False)
         print(f"Successfully saved {len(stocks)} stocks to {output_file}")
         
-        # Print sample of the data
-        print("\nSample of saved stocks:")
-        print(stocks.head())
-        
-        # Print some statistics
-        print("\nStock Statistics:")
-        print(f"Number of Shanghai stocks: {len(stocks[stocks['ts_code'].str.endswith('.SH')])}")
-        print(f"Number of Shenzhen stocks: {len(stocks[stocks['ts_code'].str.endswith('.SZ')])}")
-        print(f"Number of Beijing stocks: {len(stocks[stocks['ts_code'].str.endswith('.BJ')])}")
-        
     except Exception as e:
         print(f"Error: {str(e)}")
 
