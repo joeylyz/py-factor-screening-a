@@ -405,7 +405,7 @@ def print_trading_table(portfolio_history):
 def main():
     """Main function to run the strategy"""
     # Initialize Tushare
-    ts.set_token('30dd89a41c53facb136d77f8ba652b5963fe96919483ac2a4a111a4f')
+    ts.set_token('INPUT YOUR TOKEN HERE')
     global pro
     pro = ts.pro_api()
     
