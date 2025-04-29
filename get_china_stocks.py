@@ -7,7 +7,7 @@ def get_china_stocks():
     Get all listed stocks in China and save to CSV
     """
     # Initialize Tushare
-    ts.set_token('INPUT YOUR LICENSE HERE')
+    ts.set_token('INPUT YOUR TOKEN HERE')
     pro = ts.pro_api()
     
     print("Getting all listed stocks in China...")
