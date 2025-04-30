@@ -432,7 +432,7 @@ def debug_csi300_calculation():
     print("\nDebugging CSI300 returns calculation...")
     
     # Initialize Tushare
-    ts.set_token('30dd89a41c53facb136d77f8ba652b5963fe96919483ac2a4a111a4f')
+    ts.set_token('YOUR TOKEN HERE')
     pro = ts.pro_api()
     
     # Get CSI300 data from Jan 1 to Apr 29, 2025
