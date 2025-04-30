@@ -17,7 +17,10 @@ PE ratio, PB ratio, debt to equity, ROE, revenue growth
 ### step 4: get trade recommendation, and back test for performance
 based on above factor, sort for best 10 stock, perform month end rebalnce, and back test
 
-### next step (underconstruction)
-for simplicity, all the factor are weighted as 1 for now
-next time will be use machine learning to examine the real impact of each factor, and suggest the best weight,then run back test
+<ML_strategy.py>
+### step 5: machine learning for trade recommendation
+use histoical indicators and share price to trade model(random forest), use trained model to make trade recommendation, and calculate performance
 
+<portfolio_analysis.py>
+### step 6: portfolio analysis
+return and risk mertrics, plots
